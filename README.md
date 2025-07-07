@@ -16,7 +16,7 @@
 
 ## 💻 How to Use
 
-1. [Download ncex-junkcleaner.bat](https://github.com/ncexs/ncex-junkcleaner/releases/download/v1.0/ncex-junkcleaner.bat) from the release page.  
+1. [Download ncex-junkcleaner-v1.0.bat](https://github.com/ncexs/ncex-junkcleaner/releases/download/v1.0/ncex-junkcleaner-v1.0.bat) from the release page.  
 2. Double-click the file.  
 3. Done! ✅
 
