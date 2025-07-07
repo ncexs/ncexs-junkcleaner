@@ -23,7 +23,8 @@
 4. 3. If you see "Windows protected your PC":
    - Click "More info"
    - Click "Run anyway"
-5. Done! ✅
+5. If prompted for permission, click **Yes**
+6.  Done! ✅
 
 ---
 
