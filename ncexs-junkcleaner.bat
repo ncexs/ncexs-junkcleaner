@@ -10,8 +10,9 @@ title ncex-junkcleaner – Klik & Bersih
 color 1F
 
 echo ===============================
-echo    ncex-junkcleaner v1.0
+echo      ncexs-junkcleaner v1.0
 echo ===============================
+
 echo [🧹] Cleaning Temporary Files...
 del /s /f /q "%TEMP%\*.*" >nul 2>&1
 del /s /f /q "C:\Windows\Temp\*.*" >nul 2>&1
