@@ -8,7 +8,7 @@
 - Wipe app cache (NetBeans, Python, Adobe, VS Code)
 - Clean `Prefetch`
 - Run built-in `Disk Cleanup`
-- Automatically runs as Administrator
+- Automatically asks for Administrator access (via UAC)
 
 ⚠️ Safe & non-destructive – does **not** delete restore points or user files.
 
@@ -19,9 +19,10 @@
 1. [Download `ncex-junkcleaner-v1.0.zip`](https://github.com/ncexs/ncex-junkcleaner/releases/download/v1.0/ncex-junkcleaner-v1.0.zip)  
    or visit the [Releases page](https://github.com/ncexs/ncex-junkcleaner/releases) to read the changelog.
 2. Extract the ZIP file (right-click → Extract All)
-3. Double-click `ncex-junkcleaner-v1.0.exe`
-4. Done! ✅
-   
+3. Double-click `ncex-junkcleaner-v1.0.bat`
+4. If prompted for permission, click **Yes**
+5. Done! ✅
+
 ---
 
 ## 🔐 What It Cleans
