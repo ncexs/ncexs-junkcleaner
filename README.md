@@ -20,7 +20,9 @@
    or visit the [Releases page](https://github.com/ncexs/ncexs-junkcleaner/releases) to read the changelog.
 2. Extract the ZIP file (right-click → Extract All)
 3. Double-click `ncexs-junkcleaner-v1.0.bat`
-4. If prompted for permission, click **Yes**
+4. 3. If you see "Windows protected your PC":
+   - Click "More info"
+   - Click "Run anyway"
 5. Done! ✅
 
 ---
