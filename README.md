@@ -16,8 +16,8 @@
 
 ## 💻 How to Use
 
-1. [Download] `ncex-junkcleaner.bat` from the Releases page
-2. Double-click it (no need to right-click "Run as Administrator")
+1. [Download `ncex-junkcleaner.bat`](https://github.com/ncexs/ncex-junkcleaner/releases/latest) from the release page.
+2. Double-click it
 3. Done!
 
 ---
