@@ -1,4 +1,4 @@
-# 🧹 ncex-junkcleaner
+# 🧹 ncexs-junkcleaner
 
 🧼 Clean up your Windows junk files in **one click** — no bloat, no drama.
 
@@ -16,10 +16,10 @@
 
 ## 💻 How to Use
 
-1. [Download `ncex-junkcleaner-v1.0.zip`](https://github.com/ncexs/ncex-junkcleaner/releases/download/v1.0/ncex-junkcleaner-v1.0.zip)  
-   or visit the [Releases page](https://github.com/ncexs/ncex-junkcleaner/releases) to read the changelog.
+1. [Download `ncex-junkcleaner-v1.0.zip`](https://github.com/ncexs/ncexs-junkcleaner/releases/download/v1.0/ncexs-junkcleaner-v1.0.zip)  
+   or visit the [Releases page](https://github.com/ncexs/ncexs-junkcleaner/releases) to read the changelog.
 2. Extract the ZIP file (right-click → Extract All)
-3. Double-click `ncex-junkcleaner-v1.0.bat`
+3. Double-click `ncexs-junkcleaner-v1.0.bat`
 4. If prompted for permission, click **Yes**
 5. Done! ✅
 
