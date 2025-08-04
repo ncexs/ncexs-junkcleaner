@@ -1,43 +1,52 @@
 # 🧹 ncexs-junkcleaner
 
-🧼 Clean up your Windows junk files in **one click** — no bloat, no drama.
+🧼 Clean up your Windows junk files in **one click** — no bloat, no drama.  
+No install. No nonsense. Just `.bat`.
 
 ✅ Built with care by [`ncexs`](https://github.com/ncexs)  
-🖱️ Just double-click and this `.bat` will:
-- Delete `%TEMP%` and `C:\Windows\Temp`
-- Clean `Prefetch`, `Recent Items`, and Recycle Bin
-- Wipe browser cache (major Chromium- and Firefox-based browsers)
-- Automatically requests Administrator access (via UAC)
-- Generates a cleanup log file (`log_ncexs.txt`)
+🖱️ Just run and this `.bat` will:
+- Clean `%TEMP%`, `C:\Windows\Temp`, and `Prefetch`
+- Delete recent `.lnk` shortcuts (Quick Access safe)
+- Wipe browser cache (Chrome, Edge, Brave, Vivaldi, Opera, Chromium, Firefox)
+- Empty Recycle Bin (optional)
+- Run Windows Defender Quick Scan (optional)
+- Free up RAM using PowerShell GC (optional)
+- Generate cleanup log (`log_ncexs.txt`)
+- Prompt for admin rights (UAC)
 
-⚠️ Safe & non-destructive – does **not** delete restore points or user files.
+⚠️ Safe & non-destructive — does **not** delete user files or restore points.
 
 ---
 
 ## 💻 How to Use
 
-1. Download the latest version on the [Releases page](https://github.com/ncexs/ncexs-junkcleaner/releases)  
-2. Extract the ZIP file (right-click → **Extract All**)  
+1. Download the latest version from the [Releases page](https://github.com/ncexs/ncexs-junkcleaner/releases)  
+2. Right-click the ZIP file → **Extract All**  
 3. Double-click the `.bat` file inside  
 4. If you see "Windows protected your PC":
-   - Click **"More info"**
-   - Click **"Run anyway"**  
-5. If prompted, click **Yes** to allow administrator permission  
-6. Done! ✅
+   - Click **More info**
+   - Click **Run anyway**  
+5. If prompted, click **Yes** to allow admin access  
+6. Answer each prompt with `Y` or `N`:
+   - Junk & Cache Cleaner  
+   - Deep Cleanup  
+   - Antivirus Scan  
+   - Clear RAM  
+7. Done! ✅
 
 ---
 
 ## 🔐 What It Cleans
 
-| Location                  | Description                                  |
-|---------------------------|----------------------------------------------|
-| `%TEMP%`                  | User temp files                              |
-| `C:\Windows\Temp`         | System temp files                            |
-| `C:\Windows\Prefetch`     | App prelaunch cache                          |
-| `Recycle Bin`             | Deleted files                                |
-| `Recent Items`            | Shortcut history                             |
-| Browser cache             | Major Chromium- and Firefox-based browsers   |
-| `log_ncexs.txt`           | Logs all deleted file activity               |
+| Location                                      | Description                                 |
+|-----------------------------------------------|---------------------------------------------|
+| `%TEMP%`, `C:\Windows\Temp`                   | User and system temp files                  |
+| `C:\Windows\Prefetch`                         | App prelaunch cache                         |
+| `%APPDATA%\Microsoft\Windows\Recent`          | Shortcut history (.lnk only)                |
+| Recycle Bin                                    | Deleted files                               |
+| Browser cache                                 | Chrome, Edge, Brave, Vivaldi, Opera, etc.   |
+| `Windows Error Reporting`, Thumbnails, etc.   | Deep cleanup (safe system-level cleanup)    |
+| `log_ncexs.txt`                               | Cleanup report with timestamp               |
 
 ---
 
