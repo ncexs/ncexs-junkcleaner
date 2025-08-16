@@ -45,3 +45,9 @@ From `ncexs Junk Cleaner` → `ncexs Toolkit`:
 
 MIT – Use freely, modify, and share.  
 Use at your own risk.
+
+---
+
+## Donations
+If you’d like to support the project:  
+Saweria: [saweria.co/ncexs](https://saweria.co/ncexs)
