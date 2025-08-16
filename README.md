@@ -3,10 +3,6 @@
 🧼 Optimize and clean your Windows system in "one click" — no bloat, no drama.  
 Run the "PowerShell script" and manage cleanup, optimization, and security tasks from an interactive menu.
 
-✅ Built with care by [`ncexs`](https://github.com/ncexs)
-
-⚠️ Safe & non-destructive — does "not" delete user files or restore points.
-
 ---
 
 ## 📝 Menu Features
