@@ -1,6 +1,6 @@
 # 🧰 ncexs Toolkit
 
-✨ Welcome to the new era! Previously known as `ncexs Junk Cleaner`, this latest version has been rebranded and supercharged into `ncexs Toolkit` with more powerful and modular tools.  
+✨ Welcome to the new era! Previously known as `ncexs Junk Cleaner`, this latest version has been rebranded into `ncexs Toolkit` with more powerful and modular tools.  
 Say goodbye to old `.bat` scripts and hello to a sleek `PowerShell`-based utility suite.
 
 🧼 Optimize and clean your Windows system in "one click" — no bloat, no drama.  
@@ -8,7 +8,7 @@ Run the `ncexs Toolkit.ps1` script to manage cleanup, optimization, and security
 
 ---
 
-## Menu Features
+## 🗂️ Menu Features
 
 - `1` → Junk & Cache Cleaner – Cleans temporary files and browser cache  
 - `2` → Deep Cleanup – Removes uninstall leftovers, system cache, thumbnails, and orphaned registry keys  
@@ -18,7 +18,7 @@ Run the `ncexs Toolkit.ps1` script to manage cleanup, optimization, and security
 
 ---
 
-## How to Use
+## 📝 How to Use
 
 1. Extract the ZIP file (right-click → "Extract All")  
 2. Right-click the `ncexs Toolkit.ps1` file → select "Run with PowerShell"  
@@ -31,7 +31,7 @@ Run the `ncexs Toolkit.ps1` script to manage cleanup, optimization, and security
 
 ---
 
-## Evolution
+## 🚀 Evolution
 
 From `ncexs Junk Cleaner` → `ncexs Toolkit`:  
 - Migrated from `.bat` to `PowerShell` for better permissions, stability, and flexibility  
@@ -41,13 +41,13 @@ From `ncexs Junk Cleaner` → `ncexs Toolkit`:
 
 ---
 
-## License
+## 📜 License
 
 MIT – Use freely, modify, and share.  
-Use at your own risk.
+Use at your own risk ⚠️.
 
 ---
 
-## Donations
+## 💖 Donations
 If you’d like to support the project:  
 Saweria: [saweria.co/ncexs](https://saweria.co/ncexs)
