@@ -1,64 +1,49 @@
-# 🧰 ncexs Toolkit
+# 🧹 ncexs-junkcleaner
 
-✨ Welcome to the new era! Previously known as `ncexs Junk Cleaner`, this latest version has been rebranded into `ncexs Toolkit` with more powerful and modular tools.  
-Say goodbye to old `.bat` scripts and hello to a sleek `PowerShell`-based utility suite.
-
-🧼 Optimize and clean your Windows system in "one click" — no bloat, no drama.  
-Run the `ncexs Toolkit.ps1` script to manage cleanup, optimization, and security tasks from an interactive menu.
-
-💡 **Why ncexs Toolkit?**  
-- Fast and easy cleanup for daily maintenance  
-- Safe and stable with PowerShell  
-- Modular design for flexibility and future updates  
+✅ Built with care by [`ncexs`](https://github.com/ncexs)  
+🧼 Clean up your Windows junk files in **one click** — no bloat, no drama, no install. Just run the `.bat`.
 
 ---
 
-## 🗂️ Menu Features
+## 🖱️ Features
 
-- `1` → Junk & Cache Cleaner – Cleans temporary files and browser cache  
-- `2` → Deep Cleanup – Removes uninstall leftovers, system cache, thumbnails, and orphaned registry keys  
-- `3` → Antivirus Scan – Runs Microsoft Defender Quick Scan  
-- `4` → Clear RAM – Frees standby memory and triggers garbage collection  
-- `5` → Exit – Exit the toolkit  
+- Deletes `%TEMP%` and `C:\Windows\Temp`  
+- Cleans `Prefetch`, Recent Items, and Recycle Bin  
+- Wipes browser cache (Chrome, Edge, Brave, Vivaldi, Opera, Chromium, Firefox)  
+- Optional Windows Defender Quick Scan  
+- Optional RAM cleanup via PowerShell GC  
+- Generates a cleanup log (`log_ncexs.txt`)  
+- Automatically requests Administrator access (UAC)  
 
-💡 **Tip:** Use Junk & Cache Cleaner daily, and Deep Cleanup occasionally to keep your system fast and healthy.
-
----
-
-## 📝 How to Use
-
-1. Extract the ZIP file (right-click → "Extract All")  
-2. Right-click the `ncexs Toolkit.ps1` file → select "Run with PowerShell"  
-3. If "Windows protected your PC" appears:
-   - Click "More info"  
-   - Click "Run anyway"  
-4. If prompted for permission:
-   - Click "Yes" to allow administrator access  
-5. Use the interactive menu to select tasks by number  
-
-💡 **Pro Tip:** Run PowerShell as Administrator for full access to all cleanup and optimization features.
+⚠️ Safe & non-destructive — does **not** delete user files or restore points.
 
 ---
 
-## 🚀 Evolution
+## 💻 How to Use
 
-From `ncexs Junk Cleaner` → `ncexs Toolkit`:  
-- Migrated from `.bat` to PowerShell for better permissions, stability, and flexibility  
-- Added interactive menu for fast task selection  
-- Expanded cleanup & optimization features  
-- Modular design and improved logging  
-
-💡 Built with practicality in mind, `ncexs Toolkit` saves time and keeps your PC smooth without complicated tools.
-
----
-
-## 📜 License
-
-MIT – Use freely, modify, and share  
-Use at your own risk ⚠️.
+1. Download the latest version from the [Releases page](https://github.com/ncexs/ncexs-junkcleaner/releases)  
+2. Extract the ZIP file  
+3. Double-click the `.bat` file  
+4. If "Windows protected your PC" appears:
+   - Click **More info** → **Run anyway**  
+5. Allow admin access when prompted  
+6. Follow prompts (`Y`/`N`) for:
+   - Junk & Cache Cleaner  
+   - Deep Cleanup  
+   - Antivirus Scan  
+   - Clear RAM  
+7. Done! ✅ Check `log_ncexs.txt` for the cleanup report  
 
 ---
 
-## 💖 Donations
-If you’d like to support the project:  
-Saweria: [saweria.co/ncexs](https://saweria.co/ncexs)
+## 🔐 What It Cleans
+
+| Location                                    | Description                                 |
+|---------------------------------------------|---------------------------------------------|
+| `%TEMP%`, `C:\Windows\Temp`                 | User and system temp files                  |
+| `C:\Windows\Prefetch`                       | App prelaunch cache                         |
+| `%APPDATA%\Microsoft\Windows\Recent`        | Shortcut history (.lnk only)                |
+| Recycle Bin                                  | Deleted files                               |
+| Browser cache                               | Chrome, Edge, Brave, Vivaldi, Opera, etc.  |
+| Windows Error Reporting, Thumbnails, etc.  | Deep cleanup (safe system-level cleanup)   |
+| `log_ncexs.txt`                             | Cleanup report with timestamp               |
