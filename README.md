@@ -32,7 +32,8 @@
    - Deep Cleanup  
    - Antivirus Scan  
    - Clear RAM  
-7. Done! ✅ Check `log_ncexs.txt` for the cleanup report  
+7. Done!
+✅ Check `log_ncexs.txt` for the cleanup report  
 
 ---
 
