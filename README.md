@@ -35,6 +35,7 @@
    - Antivirus Scan  
    - Clear RAM  
 7. Done!  
+
 ✅ Check `log_ncexs.txt` for the cleanup report  
 
 ---
@@ -55,7 +56,7 @@
 
 ## 🛡️ Security & Trust
 
-- ✅ VirusTotal verified – [Check latest release](https://www.virustotal.com/gui/file/e07b45f2c49c591623db37facad4b413c053c9c60c1c7c4507882e73cef4fea1/detection)  
+- VirusTotal verified – [Check latest release](https://www.virustotal.com/gui/file/e07b45f2c49c591623db37facad4b413c053c9c60c1c7c4507882e73cef4fea1/detection)  
 - Open-source, fully transparent — review the `.bat` code yourself  
 - Minimal permissions required; only requests admin for system cleanup  
 
