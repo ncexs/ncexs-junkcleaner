@@ -1,5 +1,7 @@
 # 🧹 ncexs-junkcleaner
 
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-Clean-brightgreen?logo=virustotal)](https://www.virustotal.com/gui/file/e07b45f2c49c591623db37facad4b413c053c9c60c1c7c4507882e73cef4fea1/detection)
+
 ✅ Built with care by [`ncexs`](https://github.com/ncexs)  
 🧼 Clean up your Windows junk files in **one click** — no bloat, no drama, no install. Just run the `.bat`.
 
@@ -32,7 +34,7 @@
    - Deep Cleanup  
    - Antivirus Scan  
    - Clear RAM  
-7. Done!
+7. Done!  
 ✅ Check `log_ncexs.txt` for the cleanup report  
 
 ---
@@ -44,7 +46,29 @@
 | `%TEMP%`, `C:\Windows\Temp`                 | User and system temp files                  |
 | `C:\Windows\Prefetch`                       | App prelaunch cache                         |
 | `%APPDATA%\Microsoft\Windows\Recent`        | Shortcut history (.lnk only)                |
-| Recycle Bin                                  | Deleted files                               |
+| Recycle Bin                                 | Deleted files                               |
 | Browser cache                               | Chrome, Edge, Brave, Vivaldi, Opera, etc.  |
-| Windows Error Reporting, Thumbnails, etc.  | Deep cleanup (safe system-level cleanup)   |
+| Windows Error Reporting, Thumbnails, etc.   | Deep cleanup (safe system-level cleanup)   |
 | `log_ncexs.txt`                             | Cleanup report with timestamp               |
+
+---
+
+## 🛡️ Security & Trust
+
+- ✅ VirusTotal verified – [Check latest release](https://www.virustotal.com/gui/file/e07b45f2c49c591623db37facad4b413c053c9c60c1c7c4507882e73cef4fea1/detection)  
+- Open-source, fully transparent — review the `.bat` code yourself  
+- Minimal permissions required; only requests admin for system cleanup  
+
+---
+
+## 📜 License
+
+MIT – Use freely, modify, and share  
+Use at your own risk ⚠️.
+
+---
+
+## 💖 Donations
+
+If you’d like to support the project:  
+Saweria: [saweria.co/ncexs](https://saweria.co/ncexs)
