@@ -1,75 +1,81 @@
 # 🧹 ncexs-junkcleaner
 
-[![Release v1.3 EOL](https://img.shields.io/badge/Release-v1.3%20EOL-brightgreen)](https://github.com/ncexs/ncexs-junkcleaner/releases)
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-Clean-brightgreen?logo=virustotal)](https://www.virustotal.com/gui/file/e07b45f2c49c591623db37facad4b413c053c9c60c1c7c4507882e73cef4fea1/detection)
+[![GitHub Release](https://img.shields.io/github/v/release/ncexs/ncexs-junkcleaner?style=flat&logo=github)](https://github.com/ncexs/ncexs-junkcleaner/releases)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-Clean-brightgreen?style=flat&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/e07b45f2c49c591623db37facad4b413c053c9c60c1c7c4507882e73cef4fea1/detection)
+[![Windows](https://img.shields.io/badge/Windows-7%2B-0078D4?style=flat&logo=windows)](#)
+[![Script](https://img.shields.io/badge/Language-Batch%20%2F%20CMD-orange?style=flat&logo=windows-terminal&logoColor=white)](#)
 
-🧹 Clean your Windows junk files in **one click** — no installation, no bloat, just run the `.bat`.
+✨ **Clean your Windows junk files in one click** – No installation, no bloat, just run the `.bat` file and let it handle the rest!
 
 ---
 
-## 🖱️ Features
+## 🖱️ Key Features
 
-- Deletes `%TEMP%` and `C:\Windows\Temp`  
-- Cleans `Prefetch`, Recent Items, and Recycle Bin  
-- Wipes browser cache (Chrome, Edge, Brave, Vivaldi, Opera, Chromium, Firefox)  
-- Optional Windows Defender Quick Scan  
-- Optional RAM cleanup via PowerShell GC  
-- Generates a cleanup log (`log_ncexs.txt`)  
-- Automatically requests Administrator access (UAC)  
+* **⚡ All-in-One Temp Cleaner** – Deletes `%TEMP%` and `C:\Windows\Temp` instantly.
+* **📂 Cache & Prelaunch Optimizer** – Cleans `Prefetch`, Recent Items, and empties the Recycle Bin.
+* **🌐 Multi-Browser Cleaner** – Wipes browser caches for **Chrome, Edge, Brave, Vivaldi, Opera, Chromium, and Firefox**.
+* **🛡️ Built-in Security Scan** – Optional Windows Defender Quick Scan to ensure your system is secure.
+* **🐏 RAM Optimizer** – Optional memory cleaning using PowerShell garbage collection (GC).
+* **📝 Detailed Logging** – Automatically generates a comprehensive cleanup log (`log_ncexs.txt`).
+* **🔑 Elevation Auto-Request** – Automatically requests Administrator access (UAC) when started.
 
-⚠️ Safe & non-destructive — does **not** delete user files or restore points.
+> [!NOTE]
+> **Safe & Non-Destructive**: This utility only removes unnecessary cache, temporary logs, and garbage files. It will **NOT** delete any personal files, documents, browser history, cookies, or system restore points.
 
 ---
 
 ## 💻 How to Use
 
-1. Download the latest version from the [Releases page](https://github.com/ncexs/ncexs-junkcleaner/releases)  
-2. Extract the ZIP file  
-3. Double-click the `.bat` file  
-4. If "Windows protected your PC" appears:  
-   - Click **More info** → **Run anyway**  
-5. Allow admin access when prompted  
-6. Follow prompts (`Y`/`N`) for:  
-   - Junk & Cache Cleaner  
-   - Deep Cleanup  
-   - Antivirus Scan  
-   - Clear RAM  
-7. Done!  
-
-✅ Check `log_ncexs.txt` for the cleanup report
+1. Download the latest version from the [Releases page](https://github.com/ncexs/ncexs-junkcleaner/releases).
+2. Extract the downloaded ZIP file to any folder.
+3. Right-click the `.bat` file and choose **Run as administrator** (or double-click to run, it will automatically prompt for admin).
+4. If a Windows SmartScreen popup says *"Windows protected your PC"*:
+   * Click **More info** ➔ **Run anyway**.
+5. When the console window opens, follow the prompts (**`Y`** / **`N`**) to run:
+   * **Junk & Cache Cleaner**
+   * **Deep Cleanup**
+   * **Antivirus Scan**
+   * **Clear RAM**
+6. Done! Review the `log_ncexs.txt` file to see the detailed report of what was cleaned.
 
 ---
 
 ## 🔐 What It Cleans
 
-| Location                                  | Description                                |
-|-------------------------------------------|--------------------------------------------|
-| `%TEMP%`, `C:\Windows\Temp`               | User and system temp files                 |
-| `C:\Windows\Prefetch`                     | App prelaunch cache                        |
-| `%APPDATA%\Microsoft\Windows\Recent`      | Shortcut history (.lnk only)               |
-| Recycle Bin                               | Deleted files                              |
-| Browser cache                             | Chrome, Edge, Brave, Vivaldi, Opera, etc. |
-| Windows Error Reporting, Thumbnails, etc. | Deep cleanup (safe system-level cleanup)  |
-| `log_ncexs.txt`                           | Cleanup report with timestamp              |
+| Target Location | Description |
+| :--- | :--- |
+| **`%TEMP%` & `C:\Windows\Temp`** | Standard temporary files created by Windows and applications. |
+| **`C:\Windows\Prefetch`** | Windows application prelaunch files (safe to clear). |
+| **`%APPDATA%\...\Recent`** | Clears shortcut history records (`.lnk` files only). |
+| **Recycle Bin** | Empties the system Recycle Bin. |
+| **Browser Cache** | Wipes browser caches for Chrome, Edge, Brave, Firefox, and more. |
+| **System Deep Cleanup** | Cleans Windows Error Reporting, Thumbnails, and obsolete system files. |
+| **`log_ncexs.txt`** | A full cleanup report detailing what has been processed. |
 
 ---
 
 ## 🛡️ Security & Trust
 
-- VirusTotal verified – [Check latest release](https://www.virustotal.com/gui/file/e07b45f2c49c591623db37facad4b413c053c9c60c1c7c4507882e73cef4fea1/detection)  
-- Open-source, fully transparent — review the `.bat` code yourself  
-- Minimal permissions required; only requests admin for system cleanup  
+* **VirusTotal Verified** – Checked and verified 100% clean. [View the scan report](https://www.virustotal.com/gui/file/e07b45f2c49c591623db37facad4b413c053c9c60c1c7c4507882e73cef4fea1/detection).
+* **Open Source & Transparent** – The script is built entirely using standard batch and powershell commands. You can right-click the `.bat` file to audit and inspect every single line of code.
+* **Minimal Permissions** – It only requests administrative privileges to delete files from system folders (like `C:\Windows\Temp` or `Prefetch`).
 
 ---
 
 ## 📜 License
 
-MIT – Use freely, modify, and share  
+MIT License - see the [LICENSE](LICENSE) file for details.  
 Use at your own risk ⚠️.
 
 ---
 
-## ☕ Donations
+## ☕ Support & Donations
 
-If you’d like to support the project:  
-Saweria: [saweria.co/ncexs](https://saweria.co/ncexs)
+If you find this utility useful and would like to support the project, any contribution is highly appreciated:
+
+[![Buy me a coffee](https://img.shields.io/badge/Saweria-Buy%20Me%20a%20Coffee-orange?style=flat&logo=buymeacoffee&logoColor=white)](https://saweria.co/ncexs)
+[![Star on GitHub](https://img.shields.io/badge/GitHub-Star%20Project-blue?style=flat&logo=github)](https://github.com/ncexs/ncexs-junkcleaner)
+
+---
+
+**🎯 Pro Tip**: Keep this batch script handy and run it weekly to keep your Windows system clean, fast, and optimized!
